@@ -1,3 +1,5 @@
+import numpy as np
+
 def max_pairwise_product(numbers):
     numbers_array = np.array(numbers)
     arg_max1 = np.argmax(numbers)
