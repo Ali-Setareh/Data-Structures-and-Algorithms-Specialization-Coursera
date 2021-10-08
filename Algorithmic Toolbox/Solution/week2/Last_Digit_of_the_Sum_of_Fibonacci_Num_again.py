@@ -1,4 +1,4 @@
-# Last Digit of the Sum of Fibonacci Numbers
+# Last Digit of the Sum of Fibonacci Numbers again
 inputs = input().split()
 n1 = int(inputs[0])
 n2 = int(inputs[1])
@@ -32,7 +32,7 @@ for i in range(2,n2):
         else:
             s1 = 9
         
-        if s2-s1>0:
+        if s2-s1>=0:
             print(s2-s1)
         else:
             print(10+s2-s1)
@@ -50,7 +50,7 @@ if flag==0:
     else:
         s1 = 9 
     
-    if s2-s1>0:
+    if s2-s1>=0:
         print(s2-s1)
     else:
         print(s2-s1+10)
