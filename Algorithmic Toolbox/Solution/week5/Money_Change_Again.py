@@ -13,4 +13,4 @@ def DPChange(money,coins):
 
 money = int(input())
 coins = [1,3,4]
-DPChange(money,coins)
+print(DPChange(money,coins))
